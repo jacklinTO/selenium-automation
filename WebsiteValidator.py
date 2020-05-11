@@ -53,6 +53,6 @@ class WebsiteValidator(object):
 		self.driver.close()
 
 if __name__ == "__main__":
-	starting_url = "https://kirasystems.com/"
+	starting_url = "https://google.com/"
 	validator = WebsiteValidator(starting_url)
 	validator.start()
